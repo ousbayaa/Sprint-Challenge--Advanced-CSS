@@ -1,1 +1,29 @@
 // Mixins Here
+.custom-btn(@bg-color, @width, @font-color){
+    display: block;
+    background-color: @bg-color;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    cursor: pointer;
+    width: @width;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @font-color;
+
+    @media @phone {
+        padding-top: 20px;
+          padding-bottom: 20px;
+          border-radius: 4px;
+    }
+}
+
+.remove-url-underline(){
+    a:link {
+        text-decoration: none;
+    }
+}
+
+.black-text(){
+    color: @ebony-clay;
+}

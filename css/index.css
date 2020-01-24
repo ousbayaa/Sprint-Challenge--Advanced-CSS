@@ -255,12 +255,17 @@ footer {
   border-radius: 10px;
   color: white;
 }
-@media (max-width: 515px) {
-  .home .walk .walk-text .btn {
-    width: 90%;
-    height: 50px;
-    font-size: 2.5rem;
-  }
+.home .walk .walk-text .btn:hover {
+  display: block;
+  background-color: white;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  width: 110px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;

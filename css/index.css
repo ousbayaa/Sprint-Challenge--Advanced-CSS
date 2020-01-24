@@ -160,6 +160,33 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.space-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #f1f1f1;
+}
+.space-title h1 {
+  font-size: 4rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.space-title nav {
+  display: flex;
+  font-size: 1.66rem;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.space-title nav a:link {
+  text-decoration: none;
+}
+.space-title nav a {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

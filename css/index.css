@@ -197,6 +197,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro img {
+  border-radius: 6px;
+  width: 100%;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -238,6 +242,25 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: black;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  width: 110px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+@media (max-width: 515px) {
+  .home .walk .walk-text .btn {
+    width: 90%;
+    height: 50px;
+    font-size: 2.5rem;
+  }
 }
 .home .walk .walk-img {
   width: 46%;

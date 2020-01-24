@@ -10,7 +10,13 @@
     font-size: 2rem;
     border-radius: 10px;
     color: @font-color;
+
+    @media @phone {
+        padding-top: 20px;
+          padding-bottom: 20px;
+          border-radius: 4px;
     }
+}
 
 .remove-url-underline(){
     a:link {
@@ -19,5 +25,5 @@
 }
 
 .black-text(){
-    color: black;
+    color: @ebony-clay;
 }
